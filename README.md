@@ -17,7 +17,7 @@ $\ell_{0}$-GSNTD将图正则化合并到 NTD 中以编码数据的流形结构�
 该软件包包含本文中所有问题的运行代码
 
 ## Matlab 代码
-一个示例解释了如何使用这些函数。对于这些代码，在运行它之前，首先将工具箱“tensortoolbox”[<sup>2</sup>](#refer-id) (www.tensortoolbox.org) 添加到 matlab 的运行路径，然后运行函数“[main_Run_me.m]“。
+一个示例解释了如何使用这些函数。对于这些代码，在运行它之前，首先将工具箱“tensortoolbox”[<sup>1</sup>](#refer-id) (www.tensortoolbox.org) 添加到 matlab 的运行路径，然后运行函数“[main_Run_me.m]“。
 
 
 ## 数据
