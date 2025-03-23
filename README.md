@@ -14,14 +14,14 @@ $\ell_{0}$-GSNTD将图正则化合并到 NTD 中以编码数据的流形结构�
 (iv)除了Tucker分解, CP分解也是一种常用的张量分解方法, 并也广泛应用于无监督特征提取任务中. 相比于Tucker分解, CP分解能保证分解的唯一性且计算复杂度更低. 基于此, 我们提出了一种新颖的带有$\ell_{0}$范数约束的稀疏和图正则化非负 CP 分解($\ell_{0}$-SGNCP)方法. 与大多数现有的通过使用 $\ell_{0}$范数正则化的松弛方案来不受控地提高因子矩阵的稀疏性的稀疏NCP(非负 CP 分解)方法不同, $\ell_{0}$-SGNCP直接采用 $\ell_{0}$范数约束来明确控制NCP中因子矩阵的稀疏性, 从而增强模型的特征提取能力. 
 尽管 NCP 的非凸性质以及 $\ell_{0}$ 范数约束的非凸非光滑性质使得优化 $\ell_{0}$-SGNCP 成为 NP-hard问题, 但我们根据$\ell_{0}$-SGNCP的具体数学性质, 将ABPL$^+$转化并制定为一个能够解决$\ell_{0}$-SGNCP且具有明确算法流程的APGL算法. APGL能给出解决 $\ell_{0}$-SGNCP且具有迭代复杂度的收敛方案和算法流程, 并具有单调收敛性和全局收敛性.  在八个真实世界的图像数据集上的实验结果表明,  $\ell_{0}$-SGNCP优于一些最先进的方法. 
 
-该软件包包含本文中所有问题的运行代码
+该软件包包含本文中所有问题的运行代码.
 
 ## Matlab 代码
-一个示例解释了如何使用这些函数。对于这些代码，在运行它之前，首先将工具箱“tensortoolbox”[<sup>1</sup>](#refer-id) (www.tensortoolbox.org) 添加到 matlab 的运行路径，然后对于不同问题，运行不同问题文件夹下的函数“[main_Run_me.m]“。
+一个示例解释了如何使用这些函数, 对于这些代码, 在运行它之前, 首先将工具箱“tensortoolbox”[<sup>1</sup>](#refer-id) (www.tensortoolbox.org) 添加到 matlab 的运行路径, 然后对于不同问题, 运行不同问题文件夹下的函数“[main_Run_me.m]“. 
 
 
 ## 数据
-该代码内置了我们论文中提到的一些数据，其余数据可以从提到的公共网站下载。
+该代码内置了我们论文中提到的一些数据, 其余数据可以从提到的公共网站下载.
 
 ## 参考文献
 [1] Brett W. Bader and Tamara G. Kolda. 2006. Algorithm 862: MATLAB tensor classes for fast algorithm prototyping. ACM Trans. Math. Softw. 32, 4 (December 2006), 635–653. https://doi.org/10.1145/1186785.1186794
